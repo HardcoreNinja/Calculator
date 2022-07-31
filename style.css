@@ -1,0 +1,82 @@
+#background{
+    width: auto;
+    height: 960px;
+    background:orange;
+    display: flex;
+    place-content: center center;
+    flex-flow: row wrap;
+}
+
+#widgetContainer{
+    width: 500px;
+    height: 700px;
+    background:blue;
+    display: flex;
+    place-content: center center;
+    flex-flow: row wrap;
+}
+
+#calculatorBackground{
+    width: 400px;
+    height: 600px;
+    background: gray;
+    border-radius: 5px;
+    display: flex;
+    place-content: flex-start center;
+    padding-top: 20px;
+    flex-flow: row wrap;
+}
+
+.display{
+    width: 350px;
+    height: 100px;
+    background: yellowgreen;
+    border-radius: 5px;
+    display: flex;
+    place-content: center center;
+    flex-flow: row wrap;
+}
+
+#clearDeleteContainer{
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    place-content: center space-evenly;
+    padding-top: 20px;
+    gap: 10px;
+    flex-flow: row nowrap;
+}
+
+.clearDeleteButtonStyle{
+    width: 175px;
+    height: 65px;
+    border-radius: 5px;
+    display: flex;
+    place-content: center center;
+    flex-flow: row wrap;
+}
+
+.clear{
+    background: lightcoral;
+}
+.delete{
+    background: lightskyblue;
+}
+
+#operationContainer{
+    width: 320px;
+    height: 320px;
+    flex-flow: column wrap;
+    place-content: space-evenly center;
+    place-items: space-evenly center;
+    padding: 10px;
+
+}
+
+.opperationButtonStyle{
+    margin-top: 5px;
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
