@@ -1,4 +1,4 @@
-#background{
+#background {
     width: auto;
     height: 960px;
     /* background:orange; */
@@ -7,7 +7,7 @@
     flex-flow: row wrap;
 }
 
-#widgetContainer{
+#widgetContainer {
     width: 500px;
     height: 700px;
     /* background:blue; */
@@ -16,7 +16,7 @@
     flex-flow: row wrap;
 }
 
-#calculatorBackground{
+#calculatorBackground {
     width: 400px;
     height: 600px;
     background: gray;
@@ -28,7 +28,7 @@
     border: 2px solid black;
 }
 
-#displayContainer{
+#displayContainer {
     width: 350px;
     height: 100px;
     background: yellowgreen;
@@ -40,8 +40,8 @@
     border: 2px solid black;
 }
 
-#numberContainer{
-    width: 350px; 
+#numberContainer {
+    width: 350px;
     height: 50px;
     background: pink;
     display: flex;
@@ -49,8 +49,8 @@
     flex-flow: row wrap;
 }
 
-#operatorContainer{
-    width: 350px; 
+#operatorContainer {
+    width: 350px;
     height: 50px;
     background: magenta;
     display: flex;
@@ -59,7 +59,7 @@
 }
 
 
-#clearDeleteContainer{
+#clearDeleteContainer {
     width: 350px;
     height: auto;
     border-radius: 5px;
@@ -71,7 +71,7 @@
     flex-flow: row nowrap;
 }
 
-.clearDeleteButtonStyle{
+.clearDeleteButtonStyle {
     width: 175px;
     height: 65px;
     border-radius: 5px;
@@ -80,14 +80,15 @@
     flex-flow: row wrap;
 }
 
-.clear{
+.clear {
     background: lightcoral;
 }
-.delete{
+
+.delete {
     background: lightskyblue;
 }
 
-#operationContainer{
+#operationContainer {
     width: 320px;
     height: 320px;
     flex-flow: column wrap;
@@ -97,7 +98,7 @@
 
 }
 
-.buttonStyle{
+.buttonStyle {
     margin-top: 5px;
     width: 75px;
     height: 75px;
@@ -105,7 +106,7 @@
     transition: all 0.5s;
 }
 
-button:hover{
+button:hover {
     background: rgba(0, 0, 0, .5);
     transform: scale(1.05);
 }
