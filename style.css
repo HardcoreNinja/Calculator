@@ -1,7 +1,7 @@
 #background{
     width: auto;
     height: 960px;
-    background:orange;
+    /* background:orange; */
     display: flex;
     place-content: center center;
     flex-flow: row wrap;
@@ -10,7 +10,7 @@
 #widgetContainer{
     width: 500px;
     height: 700px;
-    background:blue;
+    /* background:blue; */
     display: flex;
     place-content: center center;
     flex-flow: row wrap;
@@ -25,25 +25,46 @@
     place-content: flex-start center;
     padding-top: 20px;
     flex-flow: row wrap;
+    border: 2px solid black;
 }
 
-.display{
+#displayContainer{
     width: 350px;
     height: 100px;
     background: yellowgreen;
     border-radius: 5px;
     display: flex;
-    place-content: center center;
+    place-content: flex-start flex-start;
+    place-items: flex-start flex-start;
+    flex-flow: column nowrap;
+    border: 2px solid black;
+}
+
+#numberContainer{
+    width: 350px; 
+    height: 50px;
+    background: pink;
+    display: flex;
     flex-flow: row wrap;
 }
 
+#operatorContainer{
+    width: 350px; 
+    height: 50px;
+    background: magenta;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
 #clearDeleteContainer{
     width: 350px;
-    height: 100px;
+    height: auto;
     border-radius: 5px;
+    /* background: pink; */
     display: flex;
     place-content: center space-evenly;
-    padding-top: 20px;
+    padding: 20px;
     gap: 10px;
     flex-flow: row nowrap;
 }
@@ -74,9 +95,15 @@
 
 }
 
-.opperationButtonStyle{
+.buttonStyle{
     margin-top: 5px;
     width: 75px;
     height: 75px;
     border-radius: 5px;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background: rgba(0, 0, 0, .5);
+    transform: scale(1.05);
 }

@@ -11,7 +11,10 @@
     <div id="background">
         <div id="widgetContainer">
             <div id="calculatorBackground">
-                <div class="display"></div>
+                <div id="displayContainer">
+                    <div id="numberContainer"></div>
+                    <div id="operatorContainer"></div>
+                </div>
 
                 <div id="clearDeleteContainer">
                     <button class="clearDeleteButtonStyle clear">Clear</button>
@@ -19,22 +22,22 @@
                 </div>
 
                 <div id="operationContainer">
-                    <button class="opperationButtonStyle 7">7</button>
-                    <button class="opperationButtonStyle 8">8</button>
-                    <button class="opperationButtonStyle 9">9</button>
-                    <button class="opperationButtonStyle ÷">÷</button>
-                    <button class="opperationButtonStyle 4">4</button>
-                    <button class="opperationButtonStyle 5">5</button>
-                    <button class="opperationButtonStyle 6">6</button>
-                    <button class="opperationButtonStyle x">x</button>
-                    <button class="opperationButtonStyle 1">1</button>
-                    <button class="opperationButtonStyle 2">2</button>
-                    <button class="opperationButtonStyle 3">3</button>
-                    <button class="opperationButtonStyle -">-</button>
-                    <button class="opperationButtonStyle .">.</button>
-                    <button class="opperationButtonStyle 0">0</button>
-                    <button class="opperationButtonStyle =">=</button>
-                    <button class="opperationButtonStyle +">+</button>
+                    <button class="buttonStyle number" id="7">7</button>
+                    <button class="buttonStyle number" id="8">8</button>
+                    <button class="buttonStyle number" id="9">9</button>
+                    <button class="buttonStyle operator" id="÷">÷</button>
+                    <button class="buttonStyle number" id="4">4</button>
+                    <button class="buttonStyle number" id="5">5</button>
+                    <button class="buttonStyle number" id="6">6</button>
+                    <button class="buttonStyle operator" id="x">x</button>
+                    <button class="buttonStyle number" id="1">1</button>
+                    <button class="buttonStyle number" id="2">2</button>
+                    <button class="buttonStyle number" id="3">3</button>
+                    <button class="buttonStyle operator" id="-">-</button>
+                    <button class="buttonStyle decimal" id=".">.</button>
+                    <button class="buttonStyle number" id="0">0</button>
+                    <button class="buttonStyle operator" id="=">=</button>
+                    <button class="buttonStyle operator" id="+">+</button>
                 </div>
             </div>
         </div>
