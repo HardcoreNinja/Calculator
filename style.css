@@ -45,6 +45,7 @@
     height: 50px;
     background: pink;
     display: flex;
+    place-content: flex-end flex-end;
     flex-flow: row wrap;
 }
 
@@ -53,6 +54,7 @@
     height: 50px;
     background: magenta;
     display: flex;
+    place-content: flex-end flex-end;
     flex-flow: row wrap;
 }
 
